@@ -1,4 +1,3 @@
-
 @font-face {
   font-family: "Raleway";
   font-style: normal;
@@ -30,19 +29,11 @@
   --color-second: #FFFFFF;
   --color-third: #444444;
   --color-fourth: #FFE17F;
-  --color-fifth: #68A2CA;
-  --color-sixth: #756157;
-  --color-seventh: #E5E5E5;
-  --color-eighth: #F2F2F2;
-  --color-ninth: #83B3D3;
-  --color-tenth: #3F5E72;
-  --color-eleventh: #82B3D3;
-  --color-twelfth: #FF5757;
-  --color-thirteenth: #81B3D2;
   --color-bg-first: #E5E5E5;
   --color-bg-second: #FFFFFF;
   --color-bg-third: #FFE17F;
   --color-bg-fourth: #F2F2F2;
+  --color-bg-fifth: #F0F0F0;
 }
 
 body {
@@ -173,4 +164,54 @@ body {
   font-size: 18px;
   line-height: 30px;
   color: var(--color-third);
+}
+
+.special-delivery-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 800;
+  color: var(--color-first);
+  text-decoration: none;
+}
+
+
+.delivery-container {
+  background-color: var(--color-bg-fifth);
+}
+
+/* Index columns */
+.index-columns {
+  background-color: var(--color-bg-second);
+}
+
+.company-information-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  color: var(--color-first);
+}
+
+.company-information-promo {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-third);
+}
+
+.delivery-list-item {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 700;
+  color: var(--color-first);
+}
+
+.company-contacts-title {
+  font-family: "Rubik", sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  color: var(--color-first);
 }
