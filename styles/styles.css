@@ -1,0 +1,123 @@
+
+@font-face {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/raleway-800.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/rubik-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/rubik-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+
+:root {
+  --color-first: #000000;
+  --color-second: #FFFFFF;
+  --color-third: #444444;
+  --color-fourth: ;
+  --color-fifth: #68A2CA;
+  --color-sixth: #756157;
+  --color-seventh: #E5E5E5;
+  --color-eighth: #F2F2F2;
+  --color-ninth: #83B3D3;
+  --color-tenth: #3F5E72;
+  --color-eleventh: #82B3D3;
+  --color-twelfth: #FF5757;
+  --color-thirteenth: #81B3D2;
+  --color-bg-first: #E5E5E5;
+  --color-bg-second: #FFFFFF;
+  --color-bg-third: #FFE17F;
+  --color-bg-fourth: #F2F2F2;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  background-color: var(--color-bg-second);
+  color: var(--color-third);
+}
+
+
+/* Pages */
+/* Шапка */
+.page-header {
+  color: var(--color-first);
+  background-color: var(--color-bg-third);
+}
+
+
+
+.navigation-link {
+  font-family: inherit;
+  text-align: center;
+  color: var(--color-first);
+  background-color: var(--color-bg-third);
+  text-decoration: none;
+}
+
+.search-field {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  background-color: var(--color-bg-third);
+  color: var(--color-first);
+}
+
+.services-navigation-link {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: none;
+  background-color: var(--color-bg-third);
+  color: var(--color-first);
+}
+
+.catalog-submenu-link {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  background-color: var(--color-bg-third);
+  color: var(--color-first);
+  text-decoration: none;
+}
+
+.main-index {
+  background-color: var(--color-bg-second);
+  color: var(--color-third);
+}
+
+
+.gallery-item-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 50px;
+  line-height: 50px;
+  font-weight: 800;
+  color: var(--color-first);
+}
+
+.gallery-item-subtitle {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--color-third);
+}
+
